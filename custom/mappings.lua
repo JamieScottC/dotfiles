@@ -13,7 +13,8 @@ M.abc = {
   n = {
     ["<C-d>"] = { "<C-d>zz", "Down Center" },
     ["<C-u>"] = { "<C-u>zz", "Up Center" },
-    ["<C-a>"] = { "ggVG", "Select All" }
+    ["<C-a>"] = { "ggVG", "Select All" },
+    ["n"] = {"nzz", "Search Center"}
   },
 }
 return M

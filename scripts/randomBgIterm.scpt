@@ -1,5 +1,5 @@
 tell application "System Events"
-  set bgPathList to POSIX path of disk items of folder "/Users/jamiescott/Documents/iterm_backgrounds"
+  set bgPathList to POSIX path of disk items of folder "User/username/Documents/iterm_backgrounds"
 end tell
 
 set filePathListWithoutDS_Store to {}
